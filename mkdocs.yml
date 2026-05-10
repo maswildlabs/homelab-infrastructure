@@ -1,0 +1,21 @@
+site_name: MasWildLabs
+site_url: https://maswildlabs.com
+
+theme:
+  name: material
+  logo: assets/logo.svg
+  favicon: assets/logo.svg
+  palette:
+    - scheme: slate
+      primary: custom
+      accent: custom
+
+extra_css:
+  - stylesheets/extra.css
+  nav:
+  - Home: index.md
+  - Experience:
+      - Professional Resume: resume.md
+      - Document Design Capstone: portfolio/capstone.md
+  - Engineering Projects:
+      - Lab Infrastructure: portfolio/network-modernization.md
