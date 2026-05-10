@@ -1,21 +1,27 @@
-site_name: MasWildLabs
-site_url: https://maswildlabs.com
-
+site_name: Mas Wild Labs Portfolio
 theme:
   name: material
-  logo: assets/logo.svg
-  favicon: assets/logo.svg
   palette:
-    - scheme: slate
-      primary: custom
-      accent: custom
+    scheme: slate
+    primary: green
+    accent: green
 
-extra_css:
-  - stylesheets/extra.css
-  nav:
+nav:
   - Home: index.md
-  - Experience:
-      - Professional Resume: resume.md
-      - Document Design Capstone: portfolio/capstone.md
-  - Engineering Projects:
+  - About Mas Wild: maswildorigin.md
+  - Professional Resume: resume.md
+  - Portfolio:
       - Lab Infrastructure: portfolio/network-modernization.md
+      - Technical Procedures:
+          - Microsoft Authenticator Setup: portfolio/Step-by-Step Setting Up Microsoft Authenticator.md
+          - Media Performance Update: portfolio/Product Update_Enhancing Your Media Performance and Stability.md
+      - Project Case Studies:
+          - Media Player Fleet Migration: portfolio/Executive Proposal_Media Player Fleet Migration.md
+          - Documentation & QC Realignment: portfolio/Project Overview_Engineering Documentation & Quality Control Realignment.md
+      - Document Design Capstone:
+          - Overview: portfolio/Document Design Capstone/docdesign capstone-overview.md
+          - Module 1 - Brand Identity: portfolio/Document Design Capstone/Module 1 Brand Identity Analysis.md
+          - Module 2 - CRAP Principles: portfolio/Document Design Capstone/Module 2 Applying CRAP Principles.md
+          - Module 3 - Professional Identity: portfolio/Document Design Capstone/Module 3 Professional Identity.md
+          - Module 4 - Usability Evaluation: portfolio/Document Design Capstone/Module 4 Usability Evaluation.md
+          - Reflective Essay: portfolio/Document Design Capstone/Reflective Essay.md
