@@ -1,0 +1,5 @@
+/* Custom Style Overrides for MasWildLabs Stealth Theme */
+:root {
+  --md-primary-fg-color: #000000; 
+  --md-accent-fg-color: #607d8b;
+}
